@@ -1,0 +1,146 @@
+.upload-title {
+    font-family: ProximaNovaSoft-Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #232323;
+    padding-bottom: 8px;
+}
+
+.upload-videoCategory {
+    display: flex;
+    gap: 2rem;
+
+}
+
+input.upload-inputField {
+    font-family: ProximaNovaSoft-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #111111;
+    border-radius: 8px;
+    border: 1px solid #0000004a;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.title {
+    width: 100%;
+}
+
+.upload-discriptionTitle {
+    font-family: ProximaNovaSoft-Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #10002E;
+    padding-bottom: 10px;
+}
+
+.uplaod-discriptionArea {
+    /* background: pink;
+    width: 50%;
+    height: 33vh; */
+}
+
+.upload-addDescription {
+    padding: 2rem 0rem;
+}
+
+.upload-videiTitle {
+    font-family: ProximaNovaSoft-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.upload-video {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+input.upload-inputText {
+    font-family: ProximaNovaSoft-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #2b2b2b8c;
+    padding: 5px 17px;
+    /* width: 50%; */
+    margin-top: 8px;
+    background: #fdfdfd;
+    border: 1px solid #d5d4dc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.upload-uploadStatus {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: ProximaNovaSoft-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+}
+
+.upload-successfully {
+    color: #1EAB0D;
+}
+
+.upload-failed {
+    color: #FF0031
+}
+
+.upload-head {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #2b2b2b;
+    width: 89%;
+    display: flex;
+    align-items: center;
+    gap: 9rem;
+}
+
+.Upload-buttonPublish {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1033px) {
+    .uploadMultiple-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+}
+
+@media screen and (max-width: 853px) {
+    .upload-videoCategory {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
